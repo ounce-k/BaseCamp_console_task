@@ -12,17 +12,17 @@ Server log file will look like:
 200x50
 47x650 LMK (Left Mouse click)
 
-##Instruction for building:
+Instruction for building:
 1. Clone repo to the project folder.
 2. Open the Server folder.
 3. Run in Visual Studio.
 4. Open Developer Command Prompt
 5. Run command
-nmake -f Makefile
+	nmake -f Makefile
 6. Run the Server.exe.
 7. Open the Client folder.
 8. Run in Visual Studio.
 9. Open Developer Command Prompt.
 10. Run command
-nmake -f Makefile
+	nmake -f Makefile
 11. Run the Client.exe

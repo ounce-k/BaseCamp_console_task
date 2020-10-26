@@ -18,7 +18,7 @@ Instruction for building server:
 4. Call the cmake utility supplying the path to the CMakeLists.txt, run:
 	cmake ..
 5. For Windows, run:
-	msbuild Server.sln
+	cmake --build . --config Release
    For Linux, run:
 	make
 
@@ -29,7 +29,7 @@ Instruction for building client:
 4. Call the cmake utility supplying the path to the CMakeLists.txt, run:
 	cmake ..
 5. For Windows, run:
-	msbuild Client.sln
+	cmake --build . --config Release
    for Linux, run:
 	make
 
